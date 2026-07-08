@@ -1,0 +1,43 @@
+# This file specifies files and directories to ignore when uploading to Google Cloud
+
+# Ignore Git directory and configuration
+.git/
+.gitignore
+
+# Ignore node_modules
+**/node_modules/
+node_modules/
+
+# Ignore build outputs and caches
+**/dist/
+dist/
+**/build/
+build/
+.cache/
+**/.vite/
+
+# Ignore Python virtual environments and caches
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+**/.venv/
+**/venv/
+.pytest_cache/
+
+# Ignore local databases
+*.db
+*.sqlite
+basket-tracker/backend/basket_tracker.db
+
+# Logs and OS files
+*.log
+.DS_Store
+Thumbs.db
+log/
+temp/
+tmp/
+
+# Environments
+.env*
+!.env.example

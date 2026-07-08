@@ -1,0 +1,6 @@
+{
+  "name": "Basketball Game Tracker",
+  "description": "Professional basketball analytics platform for real-time game tracking and advanced statistics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

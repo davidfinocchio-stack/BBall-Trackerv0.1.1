@@ -1,0 +1,41 @@
+# Node.js dependencies and caches
+node_modules/
+**/node_modules/
+.npm
+.eslintcache
+.cache/
+**/.vite/
+
+# Python dependencies and caches
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+**/.venv/
+**/venv/
+.pytest_cache/
+
+# Databases
+*.db
+*.sqlite
+basket-tracker/backend/basket_tracker.db
+
+# Build outputs
+dist/
+**/dist/
+build/
+**/build/
+coverage/
+
+# OS and logs
+.DS_Store
+Thumbs.db
+*.log
+log/
+temp/
+tmp/
+
+# Environments
+.env*
+!.env.example
+
